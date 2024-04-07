@@ -6,6 +6,7 @@ const Navbar = ({ onSelectContent }) => {
     <nav>
       <button onClick={() => onSelectContent('home')}>Home</button>
       <button onClick={() => onSelectContent('about')}>About</button>
+      <button onClick={() => onSelectContent('projects')}>Projects</button>
       <button onClick={() => onSelectContent('contact')}>Contact</button>
     </nav>
   );
