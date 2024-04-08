@@ -4,11 +4,14 @@ import React from 'react';
 const Navbar = ({ onSelectContent }) => {
   return (
     <nav>
-      <button onClick={() => onSelectContent('home')}>Home</button>
-      <button onClick={() => onSelectContent('about')}>About</button>
-      <button onClick={() => onSelectContent('projects')}>Projects</button>
-      <button onClick={() => onSelectContent('contact')}>Contact</button>
+        <div className = "button-container">
+            {/* <button onClick={() => onSelectContent('home')}>Home</button> */}
+            <button className = "button-89" onClick={() => onSelectContent('about')}>About</button>
+            <button className = "button-89" onClick={() => onSelectContent('projects')}>Projects</button>
+            <button className = "button-89" onClick={() => onSelectContent('contact')}>Contact</button>
+    </div>
     </nav>
+    
   );
 }
 

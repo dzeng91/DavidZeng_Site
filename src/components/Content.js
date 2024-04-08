@@ -1,13 +1,12 @@
-// src/components/Content.js
 import React from 'react';
 
 const Content = ({ selectedContent }) => {
   return (
     <div>
-      {selectedContent === 'home' && <h1> Welcome to my personal website! An aspiring software engineer with a 
+      {/* {selectedContent === 'home' && <h1> Welcome to my personal website! An aspiring software engineer with a 
           diverse background in accounting and digital media industries, I am able to combine my passion for technology 
           with my experience in finance and media to create innovative solutions that bridge the gap between creativity 
-          and functionality.</h1>}
+          and functionality.</h1>} */}
         {selectedContent === 'projects' && <h1>Hello
         <div className = "my-projects">My Projects</div>
         <div className = "project-container">
