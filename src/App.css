@@ -41,7 +41,22 @@
   color: red;
   border: solid black;
   font-size: 40px;
-  
+  animation-name: color-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes color-animation {
+  0% {
+     background: #ad1457;
+  }
+  50% {
+     background: #6a1b9a;
+  } 
+  100% {
+     background: #bbdefb
+  } 
 }
 
     /* Button CSS */
@@ -64,9 +79,7 @@
       outline: var(--b) solid #0000;
       outline-offset: .6em;
       font-size: 16px;
-
       border: 0;
-
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
@@ -81,5 +94,5 @@
 
     .button-89:active {
       background: var(--color);
-      color: #fff;
+      color: white;
     }
