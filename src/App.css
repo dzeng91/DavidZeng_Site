@@ -42,20 +42,20 @@
   border: solid black;
   font-size: 40px;
   animation-name: color-animation;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 
 }
 
 @keyframes color-animation {
   0% {
-     background: #ad1457;
+     background: #eaebd7;
   }
   50% {
-     background: #6a1b9a;
+     background: #e7e787;
   } 
   100% {
-     background: #bbdefb
+     background: #eaebd7
   } 
 }
 
@@ -95,4 +95,9 @@
     .button-89:active {
       background: var(--color);
       color: white;
+    }
+
+    .screenshot {
+      width: 30%;
+      border: 2px solid black
     }
