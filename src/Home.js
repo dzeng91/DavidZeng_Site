@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
-import About from './components/About';
+import Header from './components/Header';
+import Contact from './components/Contact'
 
 const Home = () => {
   const [selectedContent, setSelectedContent] = useState('home');
@@ -12,9 +13,11 @@ const Home = () => {
 
   return (
     <div>
-      <About />
+      <Header />
       <Navbar onSelectContent={handleSelectContent} />
+      {/* <About onSelectContent={selectedContent} /> */}
       <Content selectedContent={selectedContent} />
+      <Contact selectedContent={selectedContent} />
     </div>
   );
 }
