@@ -15,45 +15,59 @@ const Content = ({ selectedContent }) => {
     <div>
       {selectedContent === 'projects' && (
         <div>
-          <div className="project-container">
+          <div className="project-button-container">
           <div>
           <div className="project-buttons">
-            <button className={`project-button ${selectedProject === 'Inanimatees' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('Inanimatees')}></button>
-            <button className={`project-button ${selectedProject === 'RetroGaming' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('RetroGaming')}></button>
-            <button className={`project-button ${selectedProject === 'EpitoME' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('EpitoME')}></button>
-          </div>
+              <button className={`project-button ${selectedProject === 'Inanimatees' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('Inanimatees')}>
+                Inanimatees
+              </button>
+              <button className={`project-button ${selectedProject === 'RetroGaming' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('RetroGaming')}>
+                RetroGaming
+              </button>
+              <button className={`project-button ${selectedProject === 'EpitoME' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('EpitoME')}>
+                EpitoME
+              </button>
+            </div>
             {selectedProject === 'Inanimatees' && (
-              <div>
-                <img src={InanamiteesImage1} alt="inanamitees1" className="screenshot" />
-                <img src={InanamiteesImage2} alt="inanamitees2" className="screenshot" />
-                <div className="project-title">Inanimatees Personality Test | Developer | November 2023</div>
-                <a className="github-link" href="https://www.inanimatees.com/">Site Link</a>
-                <div className="project-intro">Take our personality test and discover what quirky inanimate object you are! From a dirty window to a pair of reading glasses, find out which of our objects best matches your answers.</div>
-                <div className="project-intro">Designed and developed with fellow developer friends as a spin on classic personality tests where the questions and results are fun and quirky.</div>
-                <div className="project-description">- Developed on the frontend using TypeScript, React.js, Redux, CSS, HTML and on the backend using Next.js.</div>
-                <div className="project-description">- With five character trait combinations (Direct/Abstract, Organized/Unkept, Calm/Stimulating, Flexible/Robust, Lasting/Ephemeral) there are many possible object assignments for everyone and their friends and families to be assigned. A more detailed dive into your personality is in the results page.</div>
+              <div className = "project-container">
+                <div className = "content-screenshot">
+                    <img src={InanamiteesImage1} alt="inanamitees1" className="screenshot" />
+                    <img src={InanamiteesImage2} alt="inanamitees2" className="screenshot" />
+                </div>
+                <div className = "content-description">
+                    <div className="project-title">Inanimatees Personality Test | Developer | November 2023</div>
+                    <a className="github-link" href="https://www.inanimatees.com/">Site Link</a>
+                    <div className="project-intro">Take our personality test and discover what quirky inanimate object you are! From a dirty window to a pair of reading glasses, find out which of our objects best matches your answers.</div>
+                    <div className="project-intro">Designed and developed with fellow developer friends as a spin on classic personality tests where the questions and results are fun and quirky.</div>
+                    <div className="project-description">- Developed on the frontend using TypeScript, React.js, Redux, CSS, HTML and on the backend using Next.js.</div>
+                    <div className="project-description">- With five character trait combinations (Direct/Abstract, Organized/Unkept, Calm/Stimulating, Flexible/Robust, Lasting/Ephemeral) there are many possible object assignments for everyone and their friends and families to be assigned. A more detailed dive into your personality is in the results page.</div>
+                </div>
               </div>
             )}
           </div>
 
-          <div className="project-container">
+          <div>
             {selectedProject === 'RetroGaming' && (
-              <div>
-                <img src={RetroGamingImage} alt="retrogaming" className="screenshot" />
-                <img src={RetroGamingImage2} alt="retrogaming" className="screenshot" />
-                <div className="project-title">RetroGaming eCommerce Website | Developer | January 2023</div>
-                <a className="github-link" href="https://github.RetroGamingProMax.git">Github Link</a>
-                <div className="project-intro">An eCommerce site specializing in selling older “retro” video games and systems.</div>
-                <div className="project-intro">A project developed with a group to simulate an ecommerce website. Complete with user profiles / personal shopping carts, users have a personalized interface complete with past purchases.</div>
-                <div className="project-intro">Please feel free to use the filter and search functions while you browse!</div>
-                <div className="project-description">- Developed on the frontend using React.js, Redux, CSS, HTML and on the backend using Express.</div>
-                <div className="project-description">- Implemented a user login system which enabled every profile to have their own unique carts, and order histories</div>
-                <div className="project-description">- Successfully addressed a key challenge of implementing individual unique carts for each user by introducing a new Cart model in the backend. By assigning each user their own Cart, we were able to overcome the issue and provide users with individual carts and purchase histories, resulting in improved user experience</div>
+              <div className = "project-container">
+                <div className = "content-screenshot">
+                    <img src={RetroGamingImage} alt="retrogaming" className="screenshot" />
+                    <img src={RetroGamingImage2} alt="retrogaming" className="screenshot" />
+                </div>
+                <div className = "content-description">
+                    <div className="project-title">RetroGaming eCommerce Website | Developer | January 2023</div>
+                    <a className="github-link" href="https://github.RetroGamingProMax.git">Github Link</a>
+                    <div className="project-intro">An eCommerce site specializing in selling older “retro” video games and systems.</div>
+                    <div className="project-intro">A project developed with a group to simulate an ecommerce website. Complete with user profiles / personal shopping carts, users have a personalized interface complete with past purchases.</div>
+                    <div className="project-intro">Please feel free to use the filter and search functions while you browse!</div>
+                    <div className="project-description">- Developed on the frontend using React.js, Redux, CSS, HTML and on the backend using Express.</div>
+                    <div className="project-description">- Implemented a user login system which enabled every profile to have their own unique carts, and order histories</div>
+                    <div className="project-description">- Successfully addressed a key challenge of implementing individual unique carts for each user by introducing a new Cart model in the backend. By assigning each user their own Cart, we were able to overcome the issue and provide users with individual carts and purchase histories, resulting in improved user experience</div>
+                </div>
               </div>
             )}
           </div>
 
-          <div className="project-container">
+          <div className="project-container-epitoMe">
             {selectedProject === 'EpitoME' && (
               <div>
                 <div className="project-title">EpitoME Social Media Website | Developer | February 2023</div>

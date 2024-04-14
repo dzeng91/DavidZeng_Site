@@ -38,7 +38,7 @@
 }
 
 .header {
-  color: red;
+  color: black;
   border: solid black;
   font-size: 40px;
   animation-name: color-animation;
@@ -98,21 +98,51 @@
     }
 
     .screenshot {
-      width: 30%;
+      width: 100%;
       border: 2px solid black
     }
 
+    .project-buttons {
+      display: flex;
+      justify-content: center;
+      margin: 40px;
+
+    }
+    
     .project-button {
-      width: 50px;
+      width: 100px; 
       height: 50px;
-      border-radius: 50%;
+      border-radius: 25px;
       margin: 0 10px;
       background-color: white;
       border: 2px solid black;
       cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
     }
     
     .project-button.selected {
       background-color: black;
+      color: white;
     }
+
+    .project-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 5%; /* Reduce the margin to decrease the spacing */
+    }
+    
+    .project-container > div {
+      width: 45%; /* Adjust the width of the divs */
+    }
+    
+    .content-description {
+      font-size: 20px;
+      
+
+    }
+    
+    
     

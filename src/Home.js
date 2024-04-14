@@ -17,7 +17,7 @@ const Home = () => {
       <Navbar onSelectContent={handleSelectContent} />
       {/* <About onSelectContent={selectedContent} /> */}
       <Content selectedContent={selectedContent} />
-      <Contact selectedContent={selectedContent} />
+      {/* <Contact selectedContent={selectedContact} /> */}
     </div>
   );
 }
