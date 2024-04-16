@@ -44,6 +44,8 @@
   animation-name: color-animation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+  margin: 10px;
+  padding: 10px
 
 }
 
@@ -140,7 +142,7 @@
     
     .content-description {
       font-size: 20px;
-      
+
 
     }
     
