@@ -18,13 +18,13 @@ const Content = ({ selectedContent }) => {
           <div className="project-button-container">
           <div>
           <div className="project-buttons">
-              <button className={`project-button ${selectedProject === 'Inanimatees' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('Inanimatees')}>
+              <button className={`button-inanimatees ${selectedProject === 'Inanimatees' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('Inanimatees')}>
                 Inanimatees
               </button>
-              <button className={`project-button ${selectedProject === 'RetroGaming' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('RetroGaming')}>
+              <button className={`button-retrogaming ${selectedProject === 'RetroGaming' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('RetroGaming')}>
                 RetroGaming
               </button>
-              <button className={`project-button ${selectedProject === 'EpitoME' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('EpitoME')}>
+              <button className={`button-epitome ${selectedProject === 'EpitoME' ? 'selected' : ''}`} onClick={() => handleProjectButtonClick('EpitoME')}>
                 EpitoME
               </button>
             </div>

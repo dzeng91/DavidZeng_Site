@@ -13,6 +13,16 @@
   }
 }
 
+.everything {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: linear-gradient(to bottom right, black 0%, white 50%, white 100%), black;
+
+  
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -67,11 +77,11 @@
     }
 
     .button-89 {
-      --b: 3px;   /* border thickness */
-      --s: .45em; /* size of the corner */
+      --b: 3px;  
+      --s: .45em; 
       --color: #373B44;
-      
-      padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  
+      padding: calc(1.4em + var(--s)) calc(1.5em + var(--s));
       color: var(--color);
       --_p: var(--s);
       background:
@@ -111,12 +121,12 @@
 
     }
     
-    .project-button {
+    .button-inanimatees {
       width: 100px; 
       height: 50px;
       border-radius: 25px;
       margin: 0 10px;
-      background-color: white;
+      background-color: rgb(114, 218, 234);
       border: 2px solid black;
       cursor: pointer;
       display: flex;
@@ -125,9 +135,47 @@
       font-size: 14px;
     }
     
-    .project-button.selected {
+    .button-inanimatees.selected {
       background-color: black;
-      color: white;
+      color:  rgb(114, 218, 234);
+    }
+
+    .button-retrogaming {
+      width: 100px; 
+      height: 50px;
+      border-radius: 25px;
+      margin: 0 10px;
+      background-color: rgb(244, 155, 155);
+      border: 2px solid black;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+    
+    .button-retrogaming.selected {
+      background-color: black;
+      color: rgb(244, 155, 155);
+    }
+
+    .button-epitome {
+      width: 100px; 
+      height: 50px;
+      border-radius: 25px;
+      margin: 0 10px;
+      background-color: rgb(164, 235, 142);
+      border: 2px solid black;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+    
+    .button-epitome.selected {
+      background-color: black;
+      color: rgb(164, 235, 142);
     }
 
     .project-container {
@@ -143,8 +191,31 @@
     .content-description {
       font-size: 20px;
 
+    }
+
+    .project-title {
+      font-size: 40px;
+      padding: 7px;
+      border: 2px solid black;
+      background-color: #b2e1ea;
+      
+    }
+
+    .project-intro {
+      margin: 30px;
 
     }
+
+    .project-description {
+      text-align: left;
+      background: linear-gradient(to right, rgba(215, 215, 215, 0), rgba(215, 215, 215, 1));
+    }
+
+    
+
+
+
+
     
     
     
