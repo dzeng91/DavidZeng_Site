@@ -4,6 +4,7 @@ import Content from './components/Content';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import About from './components/About';
+import Footer from './components/Footer';
 // import Banffimage from './pics/Banff.jpeg'
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Navbar onSelectContent={handleSelectContent} />
       {selectedContent === 'contact' ? <Contact /> : selectedContent === 'about' ? <About /> : 
       <Content selectedContent={selectedContent} />}
+      <Footer />
     </div>
   );
 }

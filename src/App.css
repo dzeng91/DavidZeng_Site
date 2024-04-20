@@ -181,11 +181,14 @@
     .project-container {
       display: flex;
       justify-content: space-between;
-      margin: 50px 5%; /* Reduce the margin to decrease the spacing */
+      margin: 50px 5%;
+      padding-bottom: 40px
+
     }
     
     .project-container > div {
-      width: 45%; /* Adjust the width of the divs */
+      width: 45%;
+
     }
     
     .content-description {
@@ -208,9 +211,24 @@
 
     .project-description {
       text-align: left;
-      background: linear-gradient(to right, rgba(215, 215, 215, 0), rgba(215, 215, 215, 1));
-    }
+      background: linear-gradient(to right, rgba(215, 215, 215, 0), rgba(215, 215, 215, 1), rgba(215, 215, 215, 0));
 
+    }
+    
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    
     
 
 
