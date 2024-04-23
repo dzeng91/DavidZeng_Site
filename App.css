@@ -108,7 +108,11 @@
       background: var(--color);
       color: white;
     }
+    /*End button CSS*/
 
+
+
+    
     .screenshot {
       width: 100%;
       border: 2px solid black
