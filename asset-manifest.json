@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DavidZeng_Site/static/css/main.af792a8d.css",
+    "main.js": "/DavidZeng_Site/static/js/main.50dc0396.js",
+    "static/js/453.fbd4e5bc.chunk.js": "/DavidZeng_Site/static/js/453.fbd4e5bc.chunk.js",
+    "static/media/Baseball.png": "/DavidZeng_Site/static/media/Baseball.731dd3dc8cce35e2b836.png",
+    "static/media/RetroGaming.png": "/DavidZeng_Site/static/media/RetroGaming.2fde2f6513fafa423004.png",
+    "static/media/Inanamitees2.png": "/DavidZeng_Site/static/media/Inanamitees2.9a040b7416c3b416d338.png",
+    "static/media/Me.jpeg": "/DavidZeng_Site/static/media/Me.486964dc7416014b22bc.jpeg",
+    "static/media/Inanamitees1.png": "/DavidZeng_Site/static/media/Inanamitees1.ebc9443be2e07d218a56.png",
+    "static/media/React.png": "/DavidZeng_Site/static/media/React.becbab0ab5d2271d2831.png",
+    "static/media/Gaming.png": "/DavidZeng_Site/static/media/Gaming.24fd799e604133a09c2d.png",
+    "static/media/Knicks.png": "/DavidZeng_Site/static/media/Knicks.b8314074c80ae8dc35f6.png",
+    "static/media/Travel.png": "/DavidZeng_Site/static/media/Travel.e50422aeca8b2dac5f72.png",
+    "static/media/Rangers.png": "/DavidZeng_Site/static/media/Rangers.8b43a308e8cc6a9e4cee.png",
+    "static/media/Next.png": "/DavidZeng_Site/static/media/Next.ab8293c95faf26dc5e3e.png",
+    "static/media/Yankees.png": "/DavidZeng_Site/static/media/Yankees.49038ca9785e137d76bd.png",
+    "static/media/Javascript.png": "/DavidZeng_Site/static/media/Javascript.dafbcd7fb56fcfce553c.png",
+    "index.html": "/DavidZeng_Site/index.html",
+    "main.af792a8d.css.map": "/DavidZeng_Site/static/css/main.af792a8d.css.map",
+    "main.50dc0396.js.map": "/DavidZeng_Site/static/js/main.50dc0396.js.map",
+    "453.fbd4e5bc.chunk.js.map": "/DavidZeng_Site/static/js/453.fbd4e5bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af792a8d.css",
+    "static/js/main.50dc0396.js"
+  ]
+}
