@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
-// import Banffimage from './pics/Banff.jpeg'
 
 const Home = () => {
   const [selectedContent, setSelectedContent] = useState('home');
