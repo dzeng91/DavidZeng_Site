@@ -47,7 +47,12 @@
   }
 }
 
-.header {
+.header-container {
+  position: relative;
+  margin-top: 35px
+}
+
+.header-text {
   color: black;
   border: solid black;
   font-size: 40px;
@@ -55,9 +60,31 @@
   animation-duration: 20s;
   animation-iteration-count: infinite;
   margin: 10px;
-  padding: 10px
-
+  padding: 10px;
 }
+
+.collapse-button-container {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+}
+
+
+.collapse-button {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.collapse-button:hover {
+  background-color: black;
+  color: white;
+}
+
+
 
 @keyframes color-animation {
   0% {
@@ -112,7 +139,7 @@
 
 
 
-    
+
     .screenshot {
       width: 100%;
       border: 2px solid black
