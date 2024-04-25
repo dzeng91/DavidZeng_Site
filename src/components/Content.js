@@ -3,6 +3,7 @@ import RetroGamingImage from '../pics/RetroGaming.png';
 import RetroGamingImage2 from '../pics/RetroGaming.png';
 import InanamiteesImage1 from '../pics/Inanamitees1.png';
 import InanamiteesImage2 from '../pics/Inanamitees2.png';
+import EpitomeImage1 from '../pics/epitome.png'
 
 const Content = ({ selectedContent }) => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -71,6 +72,7 @@ const Content = ({ selectedContent }) => {
               {selectedProject === 'EpitoME' && (
                 <div className="project-container">
                   <div className="content-screenshot">
+                  <img src={EpitomeImage1} alt="epitome" className="screenshot" />
                   </div>
                   <div className="content-description">
                     <div className="project-title">EpitoME Social Media Website | Developer | February 2023</div>
