@@ -37,7 +37,7 @@ const Content = ({ selectedContent }) => {
                   </div>
                   <div className="content-description">
                     <div className="project-title">Inanimatees Personality Test | Developer | November 2023</div>
-                    <a className="github-link" href="https://www.inanimatees.com/">Site Link</a>
+                    <a className="github-link" href="https://www.inanimatees.com/">Take the test!</a>
                     <div className="project-intro">Take our personality test and discover what quirky inanimate object you are! From a dirty window to a pair of reading glasses, find out which of our objects best matches your answers.</div>
                     <div className="project-intro">Designed and developed with fellow developer friends as a spin on classic personality tests where the questions and results are fun and quirky.</div>
                     <div className="project-description">- Developed on the frontend using TypeScript, React.js, Redux, CSS, HTML and on the backend using Next.js.</div>
