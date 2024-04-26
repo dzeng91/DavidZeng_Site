@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DavidZeng_Site/static/css/main.33ffe6ef.css",
+    "main.css": "/DavidZeng_Site/static/css/main.38ef74f3.css",
     "main.js": "/DavidZeng_Site/static/js/main.8f37bde6.js",
     "static/js/453.fbd4e5bc.chunk.js": "/DavidZeng_Site/static/js/453.fbd4e5bc.chunk.js",
     "static/media/Baseball.png": "/DavidZeng_Site/static/media/Baseball.731dd3dc8cce35e2b836.png",
@@ -18,12 +18,12 @@
     "static/media/Yankees.png": "/DavidZeng_Site/static/media/Yankees.49038ca9785e137d76bd.png",
     "static/media/Javascript.png": "/DavidZeng_Site/static/media/Javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/DavidZeng_Site/index.html",
-    "main.33ffe6ef.css.map": "/DavidZeng_Site/static/css/main.33ffe6ef.css.map",
+    "main.38ef74f3.css.map": "/DavidZeng_Site/static/css/main.38ef74f3.css.map",
     "main.8f37bde6.js.map": "/DavidZeng_Site/static/js/main.8f37bde6.js.map",
     "453.fbd4e5bc.chunk.js.map": "/DavidZeng_Site/static/js/453.fbd4e5bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33ffe6ef.css",
+    "static/css/main.38ef74f3.css",
     "static/js/main.8f37bde6.js"
   ]
 }
