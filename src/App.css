@@ -1,3 +1,4 @@
+/* Desktop styles */
 .App {
   text-align: center;
 }
@@ -14,11 +15,11 @@
 }
 
 .everything {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background: linear-gradient(to bottom right, rgb(200, 207, 169) 0%, white 50%, white 100%), black;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: linear-gradient(to bottom right, rgb(200, 207, 169) 0%, white 50%, white 100%), black;
 }
 
 .App-header {
@@ -45,31 +46,6 @@
   }
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-  .header-container {
-    margin-top: 10px;
-  }
-
-  .header-text {
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-  }
-
-  .collapse-button-container {
-    top: -25px;
-    right: 5px;
-  }
-
-  .collapse-button {
-    border: 1px solid black;
-    padding: 5px 10px;
-    font-size: 16px;
-  }
-}
-
-/* Desktop styles (unchanged) */
 .header-container {
   position: relative;
   margin-top: 35px;
@@ -118,23 +94,6 @@
   } 
 }
 
-   /* Mobile styles */
-@media (max-width: 768px) {
-  .button-container {
-    padding: 15px;
-  }
-
-  .button-89 {
-    --b: 3px;  
-    --s: .25em; 
-    --color: #373B44;
-
-    padding: calc(1em + var(--s)) calc(1.2em + var(--s));
-    font-size: 14px;
-  }
-}
-
-/* Desktop styles (unchanged) */
 .button-container {
   padding: 25px;
 }
@@ -143,7 +102,6 @@
   --b: 3px;  
   --s: .45em; 
   --color: #373B44;
-
   padding: calc(1.4em + var(--s)) calc(1.5em + var(--s));
   color: var(--color);
   --_p: var(--s);
@@ -171,25 +129,6 @@
   color: white;
 }
 
-   /* Mobile styles */
-@media (max-width: 768px) {
-  .project-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px 0;
-  }
-  
-  .button-inanimatees,
-  .button-retrogaming,
-  .button-epitome {
-    width: calc(33.33% - 20px);
-    margin: 0 10px 20px;
-    font-size: 12px;
-  }
-}
-
-/* Desktop styles (unchanged) */
 .screenshot {
   width: 100%;
   border: 2px solid black;
@@ -231,21 +170,6 @@
   color: rgb(164, 235, 142);
 }
 
-
-  /* Mobile styles */
-@media (max-width: 768px) {
-  .project-container {
-    flex-direction: column;
-    margin: 20px 5%;
-  }
-
-  .project-container > div {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-/* Desktop styles (unchanged) */
 .project-container {
   display: flex;
   justify-content: space-between;
@@ -289,8 +213,6 @@
   margin-top: 20px;
 }
 
-
-   /* Original desktop CSS */
 .about {
   display: flex;
 }
@@ -366,8 +288,66 @@
   margin: 50px;
 }
 
-/* Mobile-friendly adjustments */
+/* For mobile*/
 @media (max-width: 768px) {
+  .header-container {
+    margin-top: 10px;
+  }
+
+  .header-text {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .collapse-button-container {
+    top: -25px;
+    right: 5px;
+  }
+
+  .collapse-button {
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .button-container {
+    padding: 15px;
+  }
+
+  .button-89 {
+    --b: 3px;  
+    --s: .25em; 
+    --color: #373B44;
+    padding: calc(1em + var(--s)) calc(1.2em + var(--s));
+    font-size: 14px;
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .button-inanimatees,
+  .button-retrogaming,
+  .button-epitome {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    font-size: 12px;
+  }
+
+  .project-container {
+    flex-direction: column;
+    margin: 20px 5%;
+  }
+
+  .project-container > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   .about {
     flex-direction: column;
   }
