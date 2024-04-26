@@ -295,24 +295,24 @@
   }
 
   .header-text {
-    font-size: 30px; /* Reverting text size back to its original size */
+    font-size: 30px; 
     margin: 5px;
     padding: 5px;
   }
 
   .collapse-button-container {
-    position: relative; /* Positioning the container relative to its parent */
-    top: 0; /* Positioning the container at the top of the header */
+    position: relative; 
+    top: 0; 
     right: 5px;
-    z-index: 2; /* Ensuring the button container appears above the header text */
+    z-index: 2;
   }
 
   .collapse-button {
     border: 1px solid black;
     padding: 5px 10px;
     font-size: 16px;
-    position: relative; /* Ensuring the button remains within the container */
-    z-index: 2; /* Ensuring the button appears above the header text */
+    position: relative; 
+    z-index: 2; 
   }
 
   .button-container {
@@ -331,14 +331,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px 0; 
+    padding-bottom: 100px; 
   }
   
   .button-inanimatees,
   .button-retrogaming,
   .button-epitome {
     width: calc(33.33% - 20px);
-    margin: 0 10px 20px;
+    margin: 0 5px 20px;
     font-size: 12px;
   }
 
