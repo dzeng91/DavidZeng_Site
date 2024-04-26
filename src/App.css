@@ -290,14 +290,12 @@
 
 /* For mobile*/
 @media (max-width: 768px) {
-  /* Mobile-friendly adjustments */
-@media (max-width: 768px) {
   .header-container {
     margin-top: 40px; /* Adjusting margin to provide space for the collapse button */
   }
 
   .header-text {
-    font-size: 20px;
+    font-size: 30px; /* Reverting text size back to its original size */
     margin: 5px;
     padding: 5px;
   }
@@ -316,57 +314,6 @@
     position: relative; /* Ensuring the button remains within the container */
     z-index: 2; /* Ensuring the button appears above the header text */
   }
-}
-
-/* Original desktop CSS */
-.header-container {
-  position: relative;
-  margin-top: 35px;
-}
-
-.header-text {
-  color: black;
-  border: solid black;
-  font-size: 40px;
-  animation-name: color-animation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  margin: 10px;
-  padding: 10px;
-}
-
-.collapse-button-container {
-  position: absolute;
-  top: -30px;
-  right: 10px;
-}
-
-.collapse-button {
-  background-color: #ffffff;
-  color: black;
-  border: 2px solid black;
-  padding: 10px 20px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.collapse-button:hover {
-  background-color: black;
-  color: white;
-}
-
-@keyframes color-animation {
-  0% {
-     background: #eaebd7;
-  }
-  50% {
-     background: #e7e787;
-  } 
-  100% {
-     background: #eaebd7;
-  } 
-}
-
 
   .button-container {
     padding: 15px;
